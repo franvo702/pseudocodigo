@@ -1,2 +1,2 @@
 # pseudocodigo
-Me gustan las jirafas jeje
+Este es un repositorio en el que guardaré todos los trabajos de pseudocódigo.

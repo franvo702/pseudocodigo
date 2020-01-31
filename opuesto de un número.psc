@@ -1,5 +1,8 @@
 Algoritmo sin_titulo
-	Escribir "Dime un numero y te diré el opuesto"
+	Escribir "Dime una frase profunda"
 	Leer a
-	Escribir " El opuesto de tu número es  ",a*(-1)
+	Para i<-1 Hasta longitud (a) Hacer
+		Escribir subcadena(frase,i,i)
+		Escribir "*"
+	FinPara
 FinAlgoritmo
