@@ -11,14 +11,11 @@ Funcion rsdo=rellenaDerecha(frase,tam)
 	falta=tam-Longitud(frase)
 	cad=generarcadena("*",falta)
 	rsdo=concatenar(frase,cad)
-	
+
 	
 FinFuncion
 
 Funcion rsdo=generarCadena(car, num)
 	rsdo="*"
-	Para tam<-1 Hasta num Hacer
-		rsdo=Concatenar(rsdo,"*")
+	FinFuncion
 	
-	FinPara
-FinFuncion
