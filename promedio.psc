@@ -9,10 +9,9 @@ Algoritmo sin_titulo
 	para a=1 hasta n Hacer
 		escribir vector(a)
 	FinPara
-	acum <- 0
 	para i<-1 hasta n Hacer
-		acum <-acum+n
+		acum<- acum+i
 	FinPara
-	prom <-acum/n
+	prom<- acum/n
 	escribir " el promedio es  ", prom
 FinAlgoritmo
