@@ -6,27 +6,30 @@ Algoritmo matriz
 	Escribir "¿Cuántas columnas tiene la Matriz?"
 	leer numColumnas
 	
-	Dimension vector(numFilas,numColumnas)
+	Dimension vector(numColumnas)
 	
-para i=1 hasta numColumnas Hacer
-	para j=1 hasta numFilas Hacer
-		vector(j,i)= azar (9)
-		Escribir vector(j,i)
-	FinPara
-FinPara
+	rellenarAleatoriamente(vector,numColumnas)
+	imprimirMatriz(valores,numColumnas)
+	
+	desordenarVector(vector,numColumnas)
+	imprimirMatriz(valores,numColumnas)
 
-imprimirMatriz(vector,numFilas,numColumnas)
 FinAlgoritmo
+Funcion rellenarAleatoriamente(vector,numColumnas)
+	Para i=1 Hasta numColumnas
+		
+	FinPara
+FinFuncion
 
-
+Funcion desordenarVector(vector,numColumnas)
+	para i=1 Hasta numColumnas
+		
+	FinPara
 	
+FinFuncion
 
-Funcion imprimirMatriz(m,numFilas, numColumnas)
-	Para i=1 hasta numFilas
-		para j=1 hasta numColumnas
-			Escribir m(i,j) Sin Saltar
-		FinPara
-		Escribir " "
+Funcion imprimirMatriz(valores, numColumnas)
+	Para i=1 hasta numColumnas
 	FinPara
 FinFuncion
 	
